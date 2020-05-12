@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration - New Student</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+
+<div class="container-fluid text-center top-container"><img src="images/uta-logo-200.png"></div>
+
+<div class="container">
+
+    <header>
+
+
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="course_offerings.php?term=Fall" class="nav-link active">Classes</a></li>
+                <li class="nav-item"><a href="register.php" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
+
+
+            </ul>
+        </nav>
+
+        <hr style="clear:both">
+    </header>
+    <h2>New User Registration</h2>
+
+    <div class="container">
+        <form name="register" action="register.php" method="get">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <br>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br class="clear">
+            <input class="btn-submit" type="submit" name="submit">
+        </form>
+
+
+    </div>
+
+
+</div>
+
+<div class="container-fluid text-center bottom-container">
+    <footer>
+        <p>Copyright &copy;2019. Universal Tech Academy. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Offerings</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+<div class="container-fluid text-center top-container"><img src="images/uta-logo-200.png"></div>
+<div class="container">
+    <header>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="course_offerings.php?term=Fall" class="nav-link active">Classes</a></li>
+                <li class="nav-item"><a href="register.php" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
+            </ul>
+        </nav>
+        <hr style="clear:both">
+    </header>
+    <h1>Course Offerings</h1>
+
+    <!--  Display the Term and Year here --->
+    <h3>Term: Fall 2019</h3>
+
+    <div>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">Course ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Term</th>
+                <th scope="col">Enroll</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <!-- Construct the rest of courses here -->
+            <tr>
+                <td scope='row'>1111</td>
+                <td>PHP 111</td>
+                <td>Intro to PHP</td>
+                <td>3</td>
+                <td>Fall, Spring</td>
+                <td>
+                    <button>Enroll</button>
+                </td>
+            </tr>
+            <tr>
+                <td scope='row'>2222</td>
+                <td>Java 1</td>
+                <td>Intro to Java Programming</td>
+                <td>4</td>
+                <td>Spring</td>
+                <td>
+                    <button>Enroll</button>
+                </td>
+            </tr>
+            <tr>
+                <td scope='row'>3333</td>
+                <td>Adv PHP 201</td>
+                <td>Advanced PHP Programming</td>
+                <td>3</td>
+                <td>Fall</td>
+                <td>
+                    <button>Enroll</button>
+                </td>
+            </tr>
+            <tr>
+                <td scope='row'>4444</td>
+                <td>Angular 1</td>
+                <td>Intro to Angular</td>
+                <td>3</td>
+                <td>Fall, Spring</td>
+                <td>
+                    <button>Enroll</button>
+                </td>
+            </tr>
+            <tr>
+                <td scope='row'>5555</td>
+                <td>Java 2</td>
+                <td>Advanced Java Programming</td>
+                <td>4</td>
+                <td>Fall</td>
+                <td>
+                    <button>Enroll</button>
+                </td>
+            </tr>
+            <!-------------------------------------->
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+</div>
+
+<div class="container-fluid text-center bottom-container">
+    <footer>
+        <p>Copyright &copy;2019. Universal Tech Academy. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
